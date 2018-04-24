@@ -1,5 +1,5 @@
 {
-    "name": "behaba/acf-codifier",
+    "name": "devgeniem/acf-codifier",
     "type": "wordpress-muplugin",
     "description": "ACF Codifier",
     "authors": [
@@ -17,8 +17,8 @@
     "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "vcs",
-            "url": "ssh://git@github.com:behaba/acf-codifier.git"
+            "type": "git",
+            "url": "ssh://git@github.com/devgeniem/acf-codifier.git"
         }
     ],
     "autoload": {
