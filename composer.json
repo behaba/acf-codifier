@@ -17,8 +17,8 @@
     "minimum-stability": "dev",
     "repositories": [
         {
-            "type": "git",
-            "url": "ssh://git@github.com/devgeniem/acf-codifier.git"
+            "type": "vcs",
+            "url": "ssh://git@github.com:behaba/acf-codifier.git"
         }
     ],
     "autoload": {
