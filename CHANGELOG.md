@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.10.2] - 2018-04-18
+
+### Fixed
+- A bug that prevented using `add_field( $field, 'first' )` when there were no previously added fields in a GroupableField.
+
+## [1.10.1] - 2018-04-17
+
+### Fixed
+- A minor bug fix.
+
+## [1.10.0] - 2018-04-17
+
+### Added
+- A possibility to define priorities and accepted arguments on the filter functions.
+
+### Fixed
+- Set `Field->$conditional_logic` to be an empty array by default as otherwise it causes a warning in GroupableField.php:81.
+
+## [1.9.2] - 2018-04-12
+
+### Fixed
+- A pair of minor bugs that could cause PHP warnings.
+
+## [1.9.1] - 2018-04-12
+
+### Fixed
+- A bug on Image field that would cause an error on JavaScript.
+
 ## [1.9.0] - 2018-04-12
 
 ### Added
